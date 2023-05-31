@@ -1,10 +1,12 @@
-// Copyright 2022 - Michal Smoleň
+// Copyright 2021 - Michal Smolen
 
 #include "NiagaraUIRendererEditor.h"
 
 #include "NiagaraUIContentBrowserExtension.h"
 #include "NiagaraUIRendererEditorStyle.h"
 #include "NiagaraWidgetDetailCustomization.h"
+
+#include "PropertyEditor/Public/PropertyEditorModule.h"
 
 #define LOCTEXT_NAMESPACE "FNiagaraUIRendererEditorModule"
 

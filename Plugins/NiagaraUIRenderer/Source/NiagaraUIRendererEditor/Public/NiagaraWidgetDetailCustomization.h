@@ -1,8 +1,9 @@
-// Copyright (c) 2022 Michal Smoleň 
+// Copyright (c) 2021 Michal Smolen 
 
 #pragma once
 
-#include "CoreMinimal.h"
+#include "Core.h"
+#include "UObject/WeakObjectPtr.h"
 #include "IDetailCustomization.h"
 
 /**

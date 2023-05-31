@@ -1,4 +1,4 @@
-// Copyright 2022 - Michal Smoleň
+// Copyright 2021 - Michal Smolen
 
 #pragma once
 
@@ -19,8 +19,6 @@ class NIAGARAUIRENDERER_API UNiagaraUIComponent : public UNiagaraComponent
 	GENERATED_BODY()
 
 public:
-	void SetAutoActivateParticle(bool AutoActivate);
-	
 	void SetTransformationForUIRendering(FVector2D Location, FVector2D Scale, float Angle);
 
 	void RenderUI(SNiagaraUISystemWidget* NiagaraWidget, float ScaleFactor, FVector2D ParentTopLeft, const FNiagaraWidgetProperties* WidgetProperties);
@@ -34,6 +32,6 @@ public:
 	
 	
 private:
-	bool AutoActivateParticle = false;
+	bool ShouldActivateParticle = false;
 	
 };

@@ -1,4 +1,4 @@
-// Copyright (c) 2022 Michal Smoleň 
+// Copyright (c) 2021 Michal Smolen 
 
 
 #include "NiagaraUIContentBrowserExtension.h"
@@ -11,6 +11,9 @@
 #include "Materials/MaterialExpressionVertexColor.h"
 #include "Materials/MaterialExpressionParticleColor.h"
 #include "IContentBrowserSingleton.h"
+#include "Framework/Commands/UIAction.h"
+#include "Framework/MultiBox/MultiBoxBuilder.h"
+#include "Textures/SlateIcon.h"
 
 
 #define LOCTEXT_NAMESPACE "NiagaraUIRenderer"

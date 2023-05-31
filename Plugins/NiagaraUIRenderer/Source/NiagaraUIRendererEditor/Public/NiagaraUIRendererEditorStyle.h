@@ -1,4 +1,4 @@
-// Copyright (c) 2022 Michal Smoleň 
+// Copyright (c) 2021 Michal Smolen 
 
 #pragma once
 
@@ -6,6 +6,7 @@
 
 #include "Classes/EditorStyleSettings.h"
 #include "Styling/SlateStyle.h"
+#include "Styling/SlateTypes.h"
 
 /**
  * 

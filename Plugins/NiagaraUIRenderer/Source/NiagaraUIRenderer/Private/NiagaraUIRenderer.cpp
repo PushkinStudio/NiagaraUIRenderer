@@ -1,4 +1,4 @@
-// Copyright 2022 - Michal Smoleň
+// Copyright 2021 - Michal Smolen
 
 #include "NiagaraUIRenderer.h"
 

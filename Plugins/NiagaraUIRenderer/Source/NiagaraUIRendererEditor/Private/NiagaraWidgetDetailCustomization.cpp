@@ -1,4 +1,4 @@
-// Copyright (c) 2022 Michal Smoleň 
+// Copyright (c) 2021 Michal Smolen 
 
 
 #include "NiagaraWidgetDetailCustomization.h"
@@ -12,6 +12,9 @@
 #include "NiagaraUIComponent.h"
 #include "NiagaraUIRendererEditorStyle.h"
 #include "Widgets/Text/SMultiLineEditableText.h"
+#include "Materials/Material.h"
+#include "Widgets/Images/SImage.h"
+#include "Widgets/Input/SButton.h"
 
 #define LOCTEXT_NAMESPACE "NiagaraWidgetDetailCustomization"
 
